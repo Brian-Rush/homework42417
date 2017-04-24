@@ -83,3 +83,7 @@ console.log(midChar);
 var lastSentence = midChar + sentence1 + last + first;
 
 console.log (lastSentence);
+
+var finalReverse = lastSentence.split("").reverse().join("");
+
+console.log (finalReverse);
